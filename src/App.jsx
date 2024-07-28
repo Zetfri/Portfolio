@@ -1,0 +1,31 @@
+import React, {useEffect} from 'react';
+import {Route,Routes} from "react-router-dom";
+import Home from "./component/page/home.jsx";
+import About from "./component/page/about.jsx";
+import Contact from "./component/page/contact.jsx";
+import Portfolio from "./component/page/portfolio.jsx";
+import Sckils from "./component/page/sckils.jsx";
+import Nav from "./component/page/nav.jsx";
+import "./App.css"
+import Aos from"Aos"
+function App(props) {
+    useEffect(() => {
+        Aos.init()
+
+    })
+    return (
+        <div >
+            <Nav/>
+<Routes>
+    <Route path="/"  element={<Home/>} />
+    <Route path="/About"  element={<About/>} />
+    <Route path="/Contact"  element={<Contact/>} />
+    <Route path="/Portfolio"  element={<Portfolio/>} />
+    <Route path="/Sckils"  element={<Sckils/>} />
+</Routes>
+
+        </div>
+    );
+}
+
+export default App;
