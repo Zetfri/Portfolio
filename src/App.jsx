@@ -7,11 +7,11 @@ import Portfolio from "./component/page/portfolio.jsx";
 import Sckils from "./component/page/sckils.jsx";
 import Nav from "./component/page/nav.jsx";
 import "./App.css"
-import Aos from "Aos"
+import aos from "aos"
 import Coffee from './component/sites/cofee.jsx';
 function App(props) {
     useEffect(() => {
-        Aos.init()
+        aos.init()
 
     })
     return (
