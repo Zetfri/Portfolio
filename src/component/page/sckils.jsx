@@ -62,7 +62,8 @@ function TechnicalSkills() {
 
                 <div className={`${isGridView ? 'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4' : 'space-y-4'}`}>
                     {filteredSkills.map((skill) => (
-                        <div key={skill.id} onClick={() => setSelectedSkill(skill)} className={`bg-gray-800 rounded-lg p-4 cursor-pointer ${isGridView ? '' : 'flex items-center space-x-4'}`}>
+                        <div key={skill.id} onClick={() => setSelectedSkill(skill)} className={`bg-gray-800 rounded-lg p-4 cursor-pointer ${isGridView ? '' : 'flex items-center space-x-4'}`} data-aos="fade-up"
+                             data-aos-anchor-placement="bottom-bottom">
                             <div className={`text-4xl mb-2 ${isGridView ? '' : 'mb-0'}`}>
                                 <div className="w-12 h-12 overflow-hidden ">
                                     <img src={skill.image} alt={skill.name} className="w-full h-full object-cover" />

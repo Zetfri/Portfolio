@@ -35,55 +35,55 @@ function Footer(props) {
                     </div>
                 </div>
                 <div className={"left w-[70%] h-full  flex justify-center items-center sm:flex-col sm:h-auto sm:pl-10 sm:gap-8 sm:pb-10 sm:mt-10"}>
-                    <div className={"flex flex-col w-[23%] h-full gap-2 sm:w-full"}>
-                        <h1 className={"text-gray-400 text-[22px] my-2"}>SITES</h1>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Coffee
+                    <div className={"flex flex-col w-[23%] h-full gap-2 sm:w-full"} >
+                        <h1 className={"text-gray-400 text-[22px] my-2"} data-aos="fade-down">SITES</h1>
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="100" >Coffee
                             Shop</a>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Coffee
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="200">Coffee
                             Shop</a>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Coffee
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="300">Coffee
                             Shop</a>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Coffee
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="400">Coffee
                             Shop</a>
                     </div>
                     <div className={"flex flex-col w-[23%] h-full gap-2 sm:w-full mt-[40px]"}>
-                        <h1 className={"text-gray-400 text-[22px] my-2"}>SITEMAP</h1>
+                        <h1 className={"text-gray-400 text-[22px] my-2"} data-aos="fade-down">SITEMAP</h1>
                         <Link to="/"
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Home
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down"  data-aos-delay="100">Home
                             Page
                         </Link>
                         <Link to="/About"
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>About Me
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down"  data-aos-delay="200">About Me
                         </Link>
                         <Link to="/Portfolio"
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Portfolio
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down"  data-aos-delay="300">Portfolio
                         </Link>
                         <Link to="/Sckils"
 
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Skills
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="400">Skills
 
                         </Link>
                         <Link to="/Contact"
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Contact
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="500">Contact
                             With Me
                         </Link>
                     </div>
                     <div className={"flex flex-col w-[23%] h-full mt-[-30px] gap-2 sm:w-full"}>
-                        <h1 className={"text-gray-400 text-[22px] my-2"}>SUPPORT</h1>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Getting
+                        <h1 className={"text-gray-400 text-[22px] my-2"} data-aos="fade-down" >SUPPORT</h1>
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="100">Getting
                             started</a>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Report a
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="200">Report a
                             bug</a>
-                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>To
+                        <a href="" className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="300">To
                             feedback</a>
                     </div>
                     <div className={"flex flex-col w-[23%] h-full mt-[-65px] gap-2 sm:w-full"}>
-                        <h1 className={"text-gray-400 text-[22px] my-2"}>ABOUT</h1>
+                        <h1 className={"text-gray-400 text-[22px] my-2"} data-aos="fade-down">ABOUT</h1>
                         <Link to="/About"
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Bio
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="100">Bio
                         </Link>
                         <Link to="/Contact"
-                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"}>Contact
+                              className={"text-gray-400 text-[18px] hover:text-white hover:underline"} data-aos="fade-down" data-aos-delay="200">Contact
                         </Link>
                     </div>
                 </div>

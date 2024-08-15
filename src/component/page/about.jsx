@@ -1,5 +1,5 @@
 import React from 'react';
-import May from "../../assets/images/noResultLight.svg"
+import May from "../../assets/images/shootBg3.jpg"
 import Tw from "../..//assets/icons/twitter.svg"
 import Gt from "../..//assets/icons/github.svg"
 import In from "../..//assets/icons/linkedin.svg"
@@ -7,9 +7,11 @@ import ins from "../..//assets/icons/instagram.svg"
 
 function About(props) {
     return (
-        <div className="w-full h-[120vh]  sm:h-[150vh]  bg-[#030711]">
+        <div className="w-full pb-10  sm:h-[150vh]  bg-[#030711] h-auto">
             <div className={"w-full h-auto flex flex-col items-center justify-center text-gray-300"}>
-                <img src={May} alt="" className={"mt-20"}/>
+                <div className={"w-200px h-[200px] mt-20 rounded-[50%] border-[10px] border-gray-800 mb-10  flex justify-center items-center"}>
+                    <img src={May} alt="" className={" w-[200px] h-full rounded-[50%] "}/>
+                </div>
                 <div className={"w-[300px] gap-8 flex mt-10  items-center justify-center"}>
                     <a href="https://x.com/home?lang=en"> <img src={Tw} alt=""/></a>
                     <a href="https://github.com/">

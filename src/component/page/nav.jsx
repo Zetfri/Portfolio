@@ -22,8 +22,6 @@ function Nav(props) {
                     <Link to="/Contact">Contact</Link>
                     <Link to="/Portfolio">Portfolio</Link>
                     <Link to="/Sckils">Sckils</Link>
-
-
                 </div>
                 <div className="hidden sm:block">
                     <img src={Logo} alt="" className={"w-[352px] rounded-[25px] "}/>

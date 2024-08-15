@@ -15,7 +15,7 @@ function Service(props) {
             </div>
 
             <div className={"w-full h-auto text-center flex flex-wrap gap-10  justify-center items-center ]"}>
-                <div className={"w-[400px] sm:w-[90%] hover:bg-gray-900 h-[270px] gap-4 border rounded-[30px] border-gray-700 items-center justify-center flex flex-col"}>
+                <div className={"w-[400px] sm:w-[90%] hover:bg-gray-900 h-[270px] gap-4 border rounded-[30px] border-gray-700 items-center justify-center flex flex-col"} data-aos="zoom-in-down" data-aos-delay="100">
                     <div className={"w-[55px] h-[55px] rounded-[50%]  bg-[#21252E]  border border-gray-700  flex  items-center justify-center"}>
                         <img src={Web} alt=""/>
                     </div>
@@ -26,7 +26,7 @@ function Service(props) {
 
 
                 </div>
-                <div className={"w-[400px] sm:w-[90%] hover:bg-gray-900 h-[270px] gap-4 border rounded-[30px] border-gray-700 items-center justify-center flex flex-col"}>
+                <div className={"w-[400px] sm:w-[90%] hover:bg-gray-900 h-[270px] gap-4 border rounded-[30px] border-gray-700 items-center justify-center flex flex-col"} data-aos="zoom-in-down" data-aos-delay="200">
                     <div className={"w-[55px] h-[55px] rounded-[50%]  bg-[#21252E]  border border-gray-700  flex  items-center justify-center"}>
                         <img src={Web2} alt=""/>
                     </div>
@@ -36,7 +36,7 @@ function Service(props) {
 
 
                 </div>
-                <div className={"w-[400px] sm:w-[90%] h-[270px] gap-4 hover:bg-gray-900  border rounded-[30px] border-gray-700 items-center justify-center flex flex-col"}>
+                <div className={"w-[400px] sm:w-[90%] h-[270px] gap-4 hover:bg-gray-900  border rounded-[30px] border-gray-700 items-center justify-center flex flex-col"} data-aos="zoom-in-down" data-aos-delay="300">
                     <div className={"w-[55px]  h-[55px] rounded-[50%]  bg-[#21252E]  border border-gray-700  flex  items-center justify-center"}>
                         <img src={Web3} alt=""/>
                     </div>

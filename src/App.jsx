@@ -7,7 +7,8 @@ import Portfolio from "./component/page/portfolio.jsx";
 import Sckils from "./component/page/sckils.jsx";
 import Nav from "./component/page/nav.jsx";
 import "./App.css"
-import Aos from"Aos"
+import Aos from "Aos"
+import Coffee from './component/sites/cofee.jsx';
 function App(props) {
     useEffect(() => {
         Aos.init()
@@ -22,6 +23,7 @@ function App(props) {
     <Route path="/Contact"  element={<Contact/>} />
     <Route path="/Portfolio"  element={<Portfolio/>} />
     <Route path="/Sckils"  element={<Sckils/>} />
+    <Route path="/Coffee" element={<Coffee/>} />
 </Routes>
 
         </div>

@@ -41,7 +41,7 @@ function Home(props) {
                     </div>
                 </div>
                 <div className={"w-[50%] h-screen sm:h-auto sm:w-full sm:mt-[-350px]"}>
-                    <img src={Frontend} alt=""/>
+                    <img src={Frontend} alt="" data-aos="fade-down" data-aos-delay="500" className={"mt-[40px]"}/>
                 </div>
 
 
