@@ -45,24 +45,11 @@ function TechnicalSkills() {
                 <h1 className="text-3xl font-bold mb-4">Technical Skills</h1>
                 <p className="mb-6">As a web developer, I`ve honed a variety of skills that allow me to create beautiful and functional web interfaces.</p>
 
-                <div className="flex items-center mb-6 space-x-4">
-                    <div className="flex-grow relative">
-                        <input
-                            type="text"
-                            placeholder="Search skills..."
-                            value={searchTerm}
-                            onChange={(e) => setSearchTerm(e.target.value)}
-                            className="w-full bg-gray-800 rounded-lg py-2 px-4 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        />
-                    </div>
-                    <button onClick={() => setIsGridView(!isGridView)} className="bg-gray-700 p-2 rounded-lg">
-                        {isGridView ? 'List View' : 'Grid View'}
-                    </button>
-                </div>
+               
 
-                <div className={`${isGridView ? 'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4' : 'space-y-4'}`}>
+                <div className={'w-full flex  flex-wrap gap-5'}>
                     {filteredSkills.map((skill) => (
-                        <div key={skill.id} onClick={() => setSelectedSkill(skill)} className={`bg-gray-800 rounded-lg p-4 cursor-pointer ${isGridView ? '' : 'flex items-center space-x-4'}`} data-aos="fade-up"
+                        <div key={skill.id} onClick={() => setSelectedSkill(skill)} className={`bg-gray-800 rounded-lg p-4 cursor-pointer w-[160px] h-[140px]`} data-aos="fade-up"
                              data-aos-anchor-placement="bottom-bottom">
                             <div className={`text-4xl mb-2 ${isGridView ? '' : 'mb-0'}`}>
                                 <div className="w-12 h-12 overflow-hidden ">
